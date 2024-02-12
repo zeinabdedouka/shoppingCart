@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=League+Spartan:wght@100&family=Playfair+Display:ital@1&family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border: none;
+}
+.image{
+    height: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10%;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(101, 34, 100);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.phone{
+   display: flex;
+   gap: 20px;
+}
+.welcome{
+    min-height: 100vh;
+    background: url(perfume/c2d51dcd80e929795ca84d947b36b6b9.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.acceuil{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+span{
+    color:rgb(249, 195, 245);
+}
+.explore{
+    font-size: 25px;
+    border: 1px solid #19249a;
+    border-radius: 10px;
+    padding: 5px;
+    width: 10%;
+}
+.explore:hover{
+    color: rgb(101, 34, 100);
+    background-color: #ffffff;
+}
+.about{
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutUs{
+    width: 45%;
+    padding: 40px;
+}
+#imgAbout{
+    padding: 40px;
+}
+#bouton2{
+    padding: 5px;
+    width: 22%;
+}
